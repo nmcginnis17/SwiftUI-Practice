@@ -12,6 +12,7 @@
 		1F48285A2AAC1CF600337FD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F4828592AAC1CF600337FD9 /* Assets.xcassets */; };
 		1F48285D2AAC1CF600337FD9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F48285C2AAC1CF600337FD9 /* Preview Assets.xcassets */; };
 		1F4828642AAC1DA600337FD9 /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4828632AAC1DA600337FD9 /* Framework.swift */; };
+		1F4828662AAC9A5200337FD9 /* FrameworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4828652AAC9A5200337FD9 /* FrameworkDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		1F4828592AAC1CF600337FD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F48285C2AAC1CF600337FD9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1F4828632AAC1DA600337FD9 /* Framework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework.swift; sourceTree = "<group>"; };
+		1F4828652AAC9A5200337FD9 /* FrameworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				1F4828552AAC1CF500337FD9 /* SwiftUI_Apple_FrameworksApp.swift */,
 				1F4828572AAC1CF500337FD9 /* FrameworkGridView.swift */,
+				1F4828652AAC9A5200337FD9 /* FrameworkDetailView.swift */,
 				1F4828632AAC1DA600337FD9 /* Framework.swift */,
 				1F4828592AAC1CF600337FD9 /* Assets.xcassets */,
 				1F48285B2AAC1CF600337FD9 /* Preview Content */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F4828662AAC9A5200337FD9 /* FrameworkDetailView.swift in Sources */,
 				1F4828582AAC1CF500337FD9 /* FrameworkGridView.swift in Sources */,
 				1F4828642AAC1DA600337FD9 /* Framework.swift in Sources */,
 				1F4828562AAC1CF500337FD9 /* SwiftUI_Apple_FrameworksApp.swift in Sources */,
