@@ -23,6 +23,14 @@ struct FrameworkGridView: View {
                     }
                 }
             }
+            
+//            List {
+//                ForEach(MockData.frameworks) { framework in
+//                    NavigationLink(destination: FrameworkDetailView(framework: framework, isShowingDetailView: $viewModel.isShowingDetailView)) {
+//                        FrameworkTitleView(framework: framework)
+//                    }
+//                }
+//            }
             .navigationTitle("🖥️ Frameworks")
             .sheet(isPresented: $viewModel.isShowingDetailView) {
                 FrameworkDetailView(framework: viewModel.selectedFramework ?? MockData.sampleFramework, isShowingDetailView: $viewModel.isShowingDetailView)
