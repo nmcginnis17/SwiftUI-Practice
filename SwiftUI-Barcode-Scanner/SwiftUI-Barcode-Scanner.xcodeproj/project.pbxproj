@@ -12,6 +12,7 @@
 		1F9E9CBB2AAEA5DB00CAD0A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F9E9CBA2AAEA5DB00CAD0A1 /* Assets.xcassets */; };
 		1F9E9CBE2AAEA5DB00CAD0A1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F9E9CBD2AAEA5DB00CAD0A1 /* Preview Assets.xcassets */; };
 		1F9E9CC52AAEACA300CAD0A1 /* ScannerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9E9CC42AAEACA300CAD0A1 /* ScannerVC.swift */; };
+		1F9E9CC72AB164D600CAD0A1 /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9E9CC62AB164D600CAD0A1 /* ScannerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		1F9E9CBA2AAEA5DB00CAD0A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F9E9CBD2AAEA5DB00CAD0A1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1F9E9CC42AAEACA300CAD0A1 /* ScannerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerVC.swift; sourceTree = "<group>"; };
+		1F9E9CC62AB164D600CAD0A1 /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				1F9E9CBA2AAEA5DB00CAD0A1 /* Assets.xcassets */,
 				1F9E9CBC2AAEA5DB00CAD0A1 /* Preview Content */,
 				1F9E9CC42AAEACA300CAD0A1 /* ScannerVC.swift */,
+				1F9E9CC62AB164D600CAD0A1 /* ScannerView.swift */,
 			);
 			path = "SwiftUI-Barcode-Scanner";
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F9E9CC52AAEACA300CAD0A1 /* ScannerVC.swift in Sources */,
+				1F9E9CC72AB164D600CAD0A1 /* ScannerView.swift in Sources */,
 				1F9E9CB92AAEA5DA00CAD0A1 /* BarcodeScannerView.swift in Sources */,
 				1F9E9CB72AAEA5DA00CAD0A1 /* SwiftUI_Barcode_ScannerApp.swift in Sources */,
 			);
