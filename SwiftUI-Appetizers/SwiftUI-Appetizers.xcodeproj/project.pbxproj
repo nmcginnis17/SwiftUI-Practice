@@ -14,6 +14,8 @@
 		1F9E9CEC2AB4087B00CAD0A1 /* AppetizerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9E9CEB2AB4087B00CAD0A1 /* AppetizerListView.swift */; };
 		1F9E9CEE2AB4088400CAD0A1 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9E9CED2AB4088400CAD0A1 /* AccountView.swift */; };
 		1F9E9CF02AB4088A00CAD0A1 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9E9CEF2AB4088A00CAD0A1 /* OrderView.swift */; };
+		1F9E9CF22AB40D5F00CAD0A1 /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9E9CF12AB40D5F00CAD0A1 /* Appetizer.swift */; };
+		1F9E9CF42AB414C100CAD0A1 /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9E9CF32AB414C100CAD0A1 /* AppetizerListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		1F9E9CEB2AB4087B00CAD0A1 /* AppetizerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListView.swift; sourceTree = "<group>"; };
 		1F9E9CED2AB4088400CAD0A1 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		1F9E9CEF2AB4088A00CAD0A1 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		1F9E9CF12AB40D5F00CAD0A1 /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
+		1F9E9CF32AB414C100CAD0A1 /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,8 @@
 				1F9E9CEB2AB4087B00CAD0A1 /* AppetizerListView.swift */,
 				1F9E9CED2AB4088400CAD0A1 /* AccountView.swift */,
 				1F9E9CEF2AB4088A00CAD0A1 /* OrderView.swift */,
+				1F9E9CF12AB40D5F00CAD0A1 /* Appetizer.swift */,
+				1F9E9CF32AB414C100CAD0A1 /* AppetizerListCell.swift */,
 			);
 			path = "SwiftUI-Appetizers";
 			sourceTree = "<group>";
@@ -146,6 +152,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F9E9CF22AB40D5F00CAD0A1 /* Appetizer.swift in Sources */,
+				1F9E9CF42AB414C100CAD0A1 /* AppetizerListCell.swift in Sources */,
 				1F9E9CEE2AB4088400CAD0A1 /* AccountView.swift in Sources */,
 				1F9E9CE02AB407FF00CAD0A1 /* AppetizerTabView.swift in Sources */,
 				1F9E9CDE2AB407FF00CAD0A1 /* SwiftUI_AppetizersApp.swift in Sources */,
