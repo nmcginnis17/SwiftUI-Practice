@@ -19,6 +19,7 @@
 		1F9E9CF62AB947E700CAD0A1 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9E9CF52AB947E700CAD0A1 /* NetworkManager.swift */; };
 		1F9E9CF82AB9496600CAD0A1 /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9E9CF72AB9496600CAD0A1 /* APError.swift */; };
 		1F9E9CFA2ABA5E3500CAD0A1 /* AppetizersListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9E9CF92ABA5E3500CAD0A1 /* AppetizersListViewModel.swift */; };
+		1FA8951D2ABD3209008B9987 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA8951C2ABD3209008B9987 /* Alert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		1F9E9CF52AB947E700CAD0A1 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		1F9E9CF72AB9496600CAD0A1 /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
 		1F9E9CF92ABA5E3500CAD0A1 /* AppetizersListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizersListViewModel.swift; sourceTree = "<group>"; };
+		1FA8951C2ABD3209008B9987 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				1F9E9CF52AB947E700CAD0A1 /* NetworkManager.swift */,
 				1F9E9CF72AB9496600CAD0A1 /* APError.swift */,
 				1F9E9CF92ABA5E3500CAD0A1 /* AppetizersListViewModel.swift */,
+				1FA8951C2ABD3209008B9987 /* Alert.swift */,
 			);
 			path = "SwiftUI-Appetizers";
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 				1F9E9CE02AB407FF00CAD0A1 /* AppetizerTabView.swift in Sources */,
 				1F9E9CF62AB947E700CAD0A1 /* NetworkManager.swift in Sources */,
 				1F9E9CDE2AB407FF00CAD0A1 /* SwiftUI_AppetizersApp.swift in Sources */,
+				1FA8951D2ABD3209008B9987 /* Alert.swift in Sources */,
 				1F9E9CEC2AB4087B00CAD0A1 /* AppetizerListView.swift in Sources */,
 				1F9E9CF02AB4088A00CAD0A1 /* OrderView.swift in Sources */,
 			);
