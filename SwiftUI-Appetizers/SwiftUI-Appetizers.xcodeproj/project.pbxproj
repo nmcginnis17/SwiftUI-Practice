@@ -20,6 +20,8 @@
 		1F9E9CF82AB9496600CAD0A1 /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9E9CF72AB9496600CAD0A1 /* APError.swift */; };
 		1F9E9CFA2ABA5E3500CAD0A1 /* AppetizersListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9E9CF92ABA5E3500CAD0A1 /* AppetizersListViewModel.swift */; };
 		1FA8951D2ABD3209008B9987 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA8951C2ABD3209008B9987 /* Alert.swift */; };
+		1FA8951F2ABD371A008B9987 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA8951E2ABD371A008B9987 /* LoadingView.swift */; };
+		1FA895212ABD381F008B9987 /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA895202ABD381F008B9987 /* Color+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		1F9E9CF72AB9496600CAD0A1 /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
 		1F9E9CF92ABA5E3500CAD0A1 /* AppetizersListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizersListViewModel.swift; sourceTree = "<group>"; };
 		1FA8951C2ABD3209008B9987 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		1FA8951E2ABD371A008B9987 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		1FA895202ABD381F008B9987 /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,8 @@
 				1F9E9CF72AB9496600CAD0A1 /* APError.swift */,
 				1F9E9CF92ABA5E3500CAD0A1 /* AppetizersListViewModel.swift */,
 				1FA8951C2ABD3209008B9987 /* Alert.swift */,
+				1FA8951E2ABD371A008B9987 /* LoadingView.swift */,
+				1FA895202ABD381F008B9987 /* Color+Ext.swift */,
 			);
 			path = "SwiftUI-Appetizers";
 			sourceTree = "<group>";
@@ -168,7 +174,9 @@
 				1F9E9CFA2ABA5E3500CAD0A1 /* AppetizersListViewModel.swift in Sources */,
 				1F9E9CF82AB9496600CAD0A1 /* APError.swift in Sources */,
 				1F9E9CF42AB414C100CAD0A1 /* AppetizerListCell.swift in Sources */,
+				1FA895212ABD381F008B9987 /* Color+Ext.swift in Sources */,
 				1F9E9CEE2AB4088400CAD0A1 /* AccountView.swift in Sources */,
+				1FA8951F2ABD371A008B9987 /* LoadingView.swift in Sources */,
 				1F9E9CE02AB407FF00CAD0A1 /* AppetizerTabView.swift in Sources */,
 				1F9E9CF62AB947E700CAD0A1 /* NetworkManager.swift in Sources */,
 				1F9E9CDE2AB407FF00CAD0A1 /* SwiftUI_AppetizersApp.swift in Sources */,
