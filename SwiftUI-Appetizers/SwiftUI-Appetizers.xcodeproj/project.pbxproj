@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F68D56D2AC7C91800E2EB50 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F68D56C2AC7C91800E2EB50 /* RemoteImage.swift */; };
 		1F9E9CDE2AB407FF00CAD0A1 /* SwiftUI_AppetizersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9E9CDD2AB407FF00CAD0A1 /* SwiftUI_AppetizersApp.swift */; };
 		1F9E9CE02AB407FF00CAD0A1 /* AppetizerTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9E9CDF2AB407FF00CAD0A1 /* AppetizerTabView.swift */; };
 		1F9E9CE22AB4080000CAD0A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F9E9CE12AB4080000CAD0A1 /* Assets.xcassets */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F68D56C2AC7C91800E2EB50 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 		1F9E9CDA2AB407FF00CAD0A1 /* SwiftUI-Appetizers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Appetizers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F9E9CDD2AB407FF00CAD0A1 /* SwiftUI_AppetizersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_AppetizersApp.swift; sourceTree = "<group>"; };
 		1F9E9CDF2AB407FF00CAD0A1 /* AppetizerTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerTabView.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 				1FA8951C2ABD3209008B9987 /* Alert.swift */,
 				1FA8951E2ABD371A008B9987 /* LoadingView.swift */,
 				1FA895202ABD381F008B9987 /* Color+Ext.swift */,
+				1F68D56C2AC7C91800E2EB50 /* RemoteImage.swift */,
 			);
 			path = "SwiftUI-Appetizers";
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				1FA8951F2ABD371A008B9987 /* LoadingView.swift in Sources */,
 				1F9E9CE02AB407FF00CAD0A1 /* AppetizerTabView.swift in Sources */,
 				1F9E9CF62AB947E700CAD0A1 /* NetworkManager.swift in Sources */,
+				1F68D56D2AC7C91800E2EB50 /* RemoteImage.swift in Sources */,
 				1F9E9CDE2AB407FF00CAD0A1 /* SwiftUI_AppetizersApp.swift in Sources */,
 				1FA8951D2ABD3209008B9987 /* Alert.swift in Sources */,
 				1F9E9CEC2AB4087B00CAD0A1 /* AppetizerListView.swift in Sources */,
