@@ -8,27 +8,59 @@
 import SwiftUI
 
 struct ContentView: View {
-    var sandwiches: [Sandwich] = []
+    @ObservedObject var store: SandwichStore
+    
     var body: some View {
         NavigationView {
             List {
-                ForEach(sandwiches) { sandwich in
+                ForEach(store.sandwiches) { sandwich in
                     SandwichCell(sandwich: sandwich)
                 }
+                .onMove(perform: moveSandwich)
+                .onDelete(perform: deleteSandwich)
+                
                 HStack {
                     Spacer()
-                    Text("\(sandwiches.count) Sandwiches")
+                    Text("\(store.sandwiches.count) Sandwiches")
                         .foregroundStyle(.secondary)
                     Spacer()
                 }
             }
             .navigationTitle("Sandwiches")
+            .toolbar {
+                #if os(iOS)
+                EditButton()
+                #endif
+                Button("Add", action: makeSandwich)
+            }
+            
+            Text("Select a sandwich")
+                .font(.largeTitle)
         }
     }
+    
+    func makeSandwich() {
+        withAnimation {
+            store.sandwiches.append(Sandwich(name: "Patty melt", ingredientCount: 3))
+        }
+    }
+    
+    func moveSandwich(from: IndexSet, to: Int) {
+        withAnimation {
+            store.sandwiches.move(fromOffsets: from, toOffset: to)
+        }
+    }
+    
+    func deleteSandwich(offsets: IndexSet) {
+        withAnimation {
+            store.sandwiches.remove(atOffsets: offsets)
+        }
+    }
+    
 }
 
 #Preview {
-    ContentView(sandwiches: testData)
+    ContentView(store: testStore)
 }
 
 struct SandwichCell: View {

@@ -13,6 +13,7 @@
 		1FC6D0362B732236001A2766 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FC6D0352B732236001A2766 /* Preview Assets.xcassets */; };
 		1FC6D03D2B7323F0001A2766 /* Sandwich.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC6D03C2B7323F0001A2766 /* Sandwich.swift */; };
 		1FC6D03F2B732830001A2766 /* SandwichDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC6D03E2B732830001A2766 /* SandwichDetail.swift */; };
+		1FC6D0412B7335CC001A2766 /* SandwichStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC6D0402B7335CC001A2766 /* SandwichStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		1FC6D0352B732236001A2766 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1FC6D03C2B7323F0001A2766 /* Sandwich.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sandwich.swift; sourceTree = "<group>"; };
 		1FC6D03E2B732830001A2766 /* SandwichDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandwichDetail.swift; sourceTree = "<group>"; };
+		1FC6D0402B7335CC001A2766 /* SandwichStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandwichStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				1FC6D0302B732235001A2766 /* ContentView.swift */,
 				1FC6D03E2B732830001A2766 /* SandwichDetail.swift */,
 				1FC6D03C2B7323F0001A2766 /* Sandwich.swift */,
+				1FC6D0402B7335CC001A2766 /* SandwichStore.swift */,
 				1FC6D0322B732236001A2766 /* Assets.xcassets */,
 				1FC6D0342B732236001A2766 /* Preview Content */,
 			);
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FC6D0412B7335CC001A2766 /* SandwichStore.swift in Sources */,
 				1FC6D0312B732235001A2766 /* ContentView.swift in Sources */,
 				1FC6D02F2B732235001A2766 /* SandwichesApp.swift in Sources */,
 				1FC6D03D2B7323F0001A2766 /* Sandwich.swift in Sources */,
